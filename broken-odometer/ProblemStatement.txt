@@ -1,3 +1,5 @@
+URL : https://www.hackerearth.com/challenge/competitive/june-easy-16/algorithm/benny-and-the-broken-odometer/
+Problem Statement:
 One fine day, Benny decided to calculate the number of kilometers that she traveled by her bicycle. Therefore, she bought an odometer and installed it onto her bicycle. But the odometer was broken. It was not able to display the digit 3. This would precisely mean, that the odometer won't be able to display the numbers having one of their digits as 3.
 
 For example, after the number 1299, the odometer will show 1400.
