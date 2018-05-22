@@ -1,3 +1,6 @@
+URL: https://www.hackerearth.com/challenge/competitive/may-easy-16/algorithm/library-boy/
+
+Problem Statement:
 Tom works in a public library in his town. Today, a completely new set of N books is arriving to the library and they have to be placed on shelves, which are initially empty.
 
 A single shelf can contain at most 10 books and any two books with titles starting with different letters cannot be put on the same shelf. Help Tom calculate the minimum number of shelves required to place all the arriving books according to these rules.
