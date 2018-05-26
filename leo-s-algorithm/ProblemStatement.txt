@@ -1,0 +1,39 @@
+URL: https://www.hackerearth.com/problem/algorithm/leos-algorithm-4/
+
+Congratulations to Leo, as he finally won an Oscar. We all know he deserved this at previous nominations also. Oscar jury members know this thing well too. So to compensate for it, they asked Leo to design a process for them to compare actors from next time onwards. So Leo came out with an algorithm to compare two actors but as he is still bit upset with the jury members for not letting him win at previous instances, he added a lot of mathematics in the algorithm. His algorithm is that to compare two actors, first allot them a rating value X and Y respectively. Actor having rating value X is said to be a better actor if the LCM of the rating values (X and Y) has prime number of distinct prime factors else Y is better.
+Though all the jury members are some finest actors in the world but they are not good at mathematics, so they turns out to you. Help them to compare between two actors and complete the process easily.
+Input
+
+    First line of the input contains an integer T, the number of test cases.
+    First line of each test case contains two space-separated integers X and Y mentioned above in the statement.
+
+Output
+
+    Print T lines each containing the character 'X' or 'Y' (Without quotes) whoever is better actor.
+
+Constraints
+
+    1<= T<= 10^5
+    1<= X,Y<= 10^3
+
+Example
+
+Input:
+3
+2 3
+2 4
+4 33
+
+Output:
+X
+Y
+X
+
+Explanation:
+
+For first test case i.e X=2 and Y=3 ,the L.C.M of 2 and 3 is 6, the prime factors of 6 are 2 and 3 that is 2 number of distinct prime factors. As, 2 is a prime number. So, X is a better actor.
+
+
+Time Limit: 1.0 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB 
