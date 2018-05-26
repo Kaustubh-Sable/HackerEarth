@@ -1,0 +1,51 @@
+URL: https://www.hackerearth.com/problem/algorithm/valid-rows/
+
+Two rows are there in which persons are standing side by side. We want to distribute prizes to each person of both the rows. So Leo came up with the idea to combine both rows into one row. He started to form the row with the following conditions:
+1. All the members of new row should only be taken from given two rows.
+2. Every member of old rows should be present in new row.
+3. The order of the persons belonging to any of the previous rows (with respect to persons of his own row) should be same in the newly formed row.
+Lets say we are given with the two rows (let say A and B) and also the third row (let say C). You have to print "YES" (Without quotes) if they follow the above conditions otherwise print "NO"(Without quotes).
+Note: For particular character strings A & B, many number of C strings are given to check and each character represents a person.
+Input
+
+    First line contains first string of characters (persons) 'A'
+    Second line contains second string of characters 'B'
+    Third line contains Q, that is the number of queries
+    Next Q lines contains third string of characters 'C'
+
+Output
+
+    For each query you have to print either YES or NO.
+
+Constraints
+
+    1<= Q<= 50
+    1<= |A|<= 10^3
+    1<= |B|<= 10^3
+    1<= |C|<= 10^5
+
+Example
+
+Input:
+aba
+cdys
+3
+acbdyas
+acabys
+abcdefghi
+
+Output:
+YES
+NO
+NO
+
+Explanation
+
+For first query string 'C' is only made from string 'A' and 'B', also the order of each person is intact with respect to the persons of its own row i.e. the order in which persons are arranged in row 'A' & row 'B' are also arranged in row 'C'
+For second query order is not intact as stated in description i.e. in row 'A', 'b' comes before 'a' but in row C 'b' is arranged after both 'a' and also 'd' is not present in the new row.
+For third query row C is not formed with persons of row A and row B.
+
+
+Time Limit: 1.0 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB 
