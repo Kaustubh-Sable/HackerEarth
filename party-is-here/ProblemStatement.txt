@@ -1,0 +1,30 @@
+URL: https://www.hackerearth.com/problem/algorithm/party-is-here/
+
+ Well, well, well.. Leo is not finished yet. On his grand success this year, he threw a grand party where a lot of people are invited along with you too. Now, before the party begins he puts everyone to a task. In the given task he would like to take an array of 'N' integers and ask everyone individually to divide the array into two subsets such that the difference of sum of the elements of two subsets is maximum. Now, your task is to give this answer to Leo in order to start the party ahead.
+Input
+
+    The first line of input contains a single integer T denoting the number of test cases.
+    For each test case the second line contains N, the number of integers.
+    Next line contains N space separated integers.
+
+Output
+
+    For each test case, output the required answer.
+
+Constraints
+
+    1<= T<= 10
+    2<= N<= 2*10^5
+    -10^9<= A[i]<= 10^9
+
+Example
+
+Input: 2 4 1 2 3 4 4 10 8 9 4 Output: 8 23
+Explanation
+
+For test case 1: Two subsets are {1} and {2, 3, 4} and hence the difference of the sum of the two subsets is 9 - 1 = 8.
+
+
+Time Limit: 1.0 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB 
