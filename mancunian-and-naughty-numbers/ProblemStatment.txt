@@ -1,0 +1,46 @@
+URL: https://www.hackerearth.com/problem/algorithm/mancunian-and-naughty-numbers-1/
+
+Mancunian, our favourite football fan, is a die-hard supporter of Manchester United Football Club. Being so, he is desperate 
+to attend the grand unveiling of Jose Mourinho as the next manager of the club. But, his arch-nemesis Liverbird (who is a 
+Liverpool fan) wants him to fail. Knowing that Mancunian is weak at mathematics, he has given him a problem to solve before 
+the ceremony. Can you help Mancunian do it and thwart the evil plans of Liverbird?
+
+A naughty number is one whose number of distinct prime factors is equal to the number of digits in its decimal representation. 
+The number 1 is considered a naughty number.
+
+Given Q queries, each query specifying two integers a and b, find the number of naughty numbers lying between a and b (both 
+included).
+
+Input format
+
+The first line contains an integer Q denoting the number of queries.
+Each of the next Q lines consists of two integers a and b denoting the range for this query.
+Output format
+
+Print Q lines. The 'i'th line contains the answer for the 'i'th query.
+
+Constraints
+- 1 <= Q <= 50,000
+- 1 <= a <= b <= 100,000
+
+SAMPLE INPUT
+
+3
+1 10
+55 59
+100 105
+
+SAMPLE OUTPUT
+
+9
+4
+2
+
+Explanation
+
+In the range 1-10, all numbers except 6 are naughty numbers.
+In the range 55-59, the naughty numbers are 55, 56, 57 and 58.
+In the range 100-105, only 102 and 105 are naughty numbers.
+
+Time Limit: 2.0 sec(s) for each input file.
+Memory Limit: 256 MB 
